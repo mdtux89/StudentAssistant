@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:id="@+id/exam_detail_container"
+    android:background="#d7e2ea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExamDetailActivity"
+    tools:ignore="MergeRootFrame" >
+
+</RelativeLayout><!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/activity_exam_detail.xml -->

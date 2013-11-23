@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-en/strings.xml -->
+    <string name="Exercises">Exercises</string>
+    <string name="ExercisesDesc">Information on your exercises</string>
+    <string name="General">General</string>
+    <string name="GeneralDesc">Configure name and deadline</string>
+    <string name="Notes">Notes</string>
+    <string name="NotesDesc">Information on your notes</string>
+    <string name="Pages">Pages</string>
+    <string name="Slides">Slides</string>
+    <string name="SlidesDesc">Information on your slides</string>
+    <string name="Textbook">Textbook</string>
+    <string name="TextbookDesc">Information on your textbook</string>
+    <string name="about">About</string>
+    <string name="app_name">Student Assistant</string>
+    <string name="author">Developed by Marco Damonte (mdtux89@gmail.com)</string>
+    <string name="badnews">days are remaining but you are going to need</string>
+    <string name="bigNotifText"> exam remainders</string>
+    <string name="bigNotifTitle">You are late for:</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirmation_dialog">Do you really want to delete it?</string>
+    <string name="confirmation_dialog_more">Do you really want to delete them?</string>
+    <string name="days">days</string>
+    <string name="deadline">When do you wish to finish?</string>
+    <string name="defdate">2013.01.01</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Exam deleted</string>
+    <string name="done">Nothing else to study here</string>
+    <string name="edit">Edit</string>
+    <string name="empty">Add new exams to get started</string>
+    <string name="goodnews">days are remaining and you are going to need only </string>
+    <string name="guess">How many a day?</string>
+    <string name="jit">days are remaining and you are right on schedule</string>
+    <string name="learning">Adjust guesses</string>
+    <string name="learning_dialog">It seems that your study pace is changed a lot. Are you sure you want to adjust it?</string>
+    <string name="left">" left ("</string>
+    <string name="licenses">Open source licenses</string>
+    <string name="mail">mdtux89@gmail.com</string>
+    <string name="menu_new">New</string>
+    <string name="moreselected"> exams selected</string>
+    <string name="name_preference">Name</string>
+    <string name="newname">New exam</string>
+    <string name="newtitle">New Exam</string>
+    <string name="number_exercises">How many exercises?</string>
+    <string name="number_pages">How many pages?</string>
+    <string name="number_slides">How many slides?</string>
+    <string name="ok">Ok</string>
+    <string name="onceD">Once a day</string>
+    <string name="onceW">Once a week</string>
+    <string name="onselected"> exam selected</string>
+    <string name="output_deadline">Deadline: </string>
+    <string name="output_required">Required: </string>
+    <string name="problems">Send feedback</string>
+    <string name="rate">Reminders frequency</string>
+    <string name="retry">Retry</string>
+    <string name="setting_update">Settings saved</string>
+    <string name="settings">Settings</string>
+    <string name="start">Select or add new exams to get started</string>
+    <string name="summary_learning">Automatically adjust your learning pace predictions</string>
+    <string name="summary_rate">In each case they will be triggered only when you are late</string>
+    <string name="switch_notif">Reminders</string>
+    <string name="title_exam_detail">Exam Detail</string>
+    <string name="undo">Undo</string>
+    <string name="undomess">Exam deleted</string>
+    <string name="update">Achievements</string>
+    <string name="updated">Achievements saved</string>
+
+</resources>

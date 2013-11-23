@@ -1,0 +1,14 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <it.openlab.studentassistant.NumberPickerPreference
+                android:key="notes"
+                android:title="@string/number_pages"
+                android:dialogTitle="@string/number_pages" />
+
+    <it.openlab.studentassistant.NumberPickerPreference
+            android:key="guess_notes"
+            android:title="@string/guess"
+            android:dialogTitle="@string/guess" />
+
+</PreferenceScreen>

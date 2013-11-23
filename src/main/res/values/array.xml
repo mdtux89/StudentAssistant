@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>@string/onceD</item>
+        <item>@string/onceW</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="category">
+        <item>@string/Slides</item>
+        <item>@string/Notes</item>
+        <item>@string/Textbook</item>
+        <item>@string/Exercises</item>
+    </string-array>
+</resources>

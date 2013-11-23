@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-large/refs.xml -->
+    <item name="activity_exam_list" type="layout">@layout/activity_exam_twopane</item>
+
+</resources>

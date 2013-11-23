@@ -1,0 +1,24 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+            android:key="notification"
+            android:title="@string/switch_notif"
+            android:defaultValue="false"/>
+
+    <ListPreference
+            android:key="rate"
+            android:dependency="notification"
+            android:entries="@array/list"
+            android:entryValues="@array/listValues"
+            android:defaultValue="7"
+            android:title="@string/rate"
+            android:summary="@string/summary_rate"/>
+
+    <SwitchPreference
+            android:key="learning"
+            android:title="@string/learning"
+            android:summary="@string/summary_learning"
+            android:defaultValue="false"/>
+
+</PreferenceScreen><!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/setting_preference.xml -->

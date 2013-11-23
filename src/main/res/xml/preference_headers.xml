@@ -1,0 +1,26 @@
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="it.openlab.studentassistant.NewActivity$GeneralFragment"
+            android:title="@string/General"
+            android:summary="@string/GeneralDesc" />
+
+
+    <header android:fragment="it.openlab.studentassistant.NewActivity$SlidesFragment"
+            android:title="@string/Slides"
+            android:summary="@string/SlidesDesc" />
+
+
+    <header android:fragment="it.openlab.studentassistant.NewActivity$NotesFragment"
+            android:title="@string/Notes"
+            android:summary="@string/NotesDesc" />
+
+    <header android:fragment="it.openlab.studentassistant.NewActivity$TextbookFragment"
+            android:title="@string/Textbook"
+            android:summary="@string/TextbookDesc" />
+
+    <header android:fragment="it.openlab.studentassistant.NewActivity$ExercisesFragment"
+            android:title="@string/Exercises"
+            android:summary="@string/ExercisesDesc" />
+
+</preference-headers>

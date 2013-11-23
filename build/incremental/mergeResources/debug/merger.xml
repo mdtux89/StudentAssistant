@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res" >
+            <file
+                name="menu_detail"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/menu/menu_detail.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="menu_context"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/menu/menu_context.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="menu"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/menu/menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-large/refs.xml"
+                qualifiers="large" >
+                <item
+                    name="activity_exam_list"
+                    type="layout">
+@layout/activity_exam_twopane
+                </item>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-sw600dp/refs.xml"
+                qualifiers="sw600dp" >
+                <item
+                    name="activity_exam_list"
+                    type="layout">
+@layout/activity_exam_twopane
+                </item>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-en/strings.xml"
+                qualifiers="en" >
+                <string name="newtitle" >New Exam
+                </string>
+                <string name="summary_rate" >In each case they will be triggered only when you are late
+                </string>
+                <string name="Textbook" >Textbook
+                </string>
+                <string name="confirmation_dialog_more" >Do you really want to delete them?
+                </string>
+                <string name="ok" >Ok
+                </string>
+                <string name="author" >Developed by Marco Damonte (mdtux89@gmail.com)
+                </string>
+                <string name="learning" >Adjust guesses
+                </string>
+                <string name="menu_new" >New
+                </string>
+                <string name="settings" >Settings
+                </string>
+                <string name="TextbookDesc" >Information on your textbook
+                </string>
+                <string name="learning_dialog" >It seems that your study pace is changed a lot. Are you sure you want to adjust it?
+                </string>
+                <string name="about" >About
+                </string>
+                <string name="output_required" >Required: 
+                </string>
+                <string name="bigNotifTitle" >You are late for:
+                </string>
+                <string name="Slides" >Slides
+                </string>
+                <string name="ExercisesDesc" >Information on your exercises
+                </string>
+                <string name="defdate" >2013.01.01
+                </string>
+                <string name="rate" >Reminders frequency
+                </string>
+                <string name="summary_learning" >Automatically adjust your learning pace predictions
+                </string>
+                <string name="edit" >Edit
+                </string>
+                <string name="title_exam_detail" >Exam Detail
+                </string>
+                <string name="start" >Select or add new exams to get started
+                </string>
+                <string name="onceW" >Once a week
+                </string>
+                <string name="moreselected" > exams selected
+                </string>
+                <string name="SlidesDesc" >Information on your slides
+                </string>
+                <string name="retry" >Retry
+                </string>
+                <string name="deadline" >When do you wish to finish?
+                </string>
+                <string name="Pages" >Pages
+                </string>
+                <string name="number_exercises" >How many exercises?
+                </string>
+                <string name="badnews" >days are remaining but you are going to need
+                </string>
+                <string name="onceD" >Once a day
+                </string>
+                <string name="undomess" >Exam deleted
+                </string>
+                <string name="goodnews" >days are remaining and you are going to need only 
+                </string>
+                <string name="guess" >How many a day?
+                </string>
+                <string name="deleted" >Exam deleted
+                </string>
+                <string name="mail" >mdtux89@gmail.com
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="days" >days
+                </string>
+                <string name="newname" >New exam
+                </string>
+                <string name="update" >Achievements
+                </string>
+                <string name="Notes" >Notes
+                </string>
+                <string name="number_slides" >How many slides?
+                </string>
+                <string name="General" >General
+                </string>
+                <string name="name_preference" >Name
+                </string>
+                <string name="empty" >Add new exams to get started
+                </string>
+                <string name="bigNotifText" > exam remainders
+                </string>
+                <string name="problems" >Send feedback
+                </string>
+                <string name="confirmation_dialog" >Do you really want to delete it?
+                </string>
+                <string name="number_pages" >How many pages?
+                </string>
+                <string name="licenses" >Open source licenses
+                </string>
+                <string name="Exercises" >Exercises
+                </string>
+                <string name="done" >Nothing else to study here
+                </string>
+                <string name="NotesDesc" >Information on your notes
+                </string>
+                <string name="setting_update" >Settings saved
+                </string>
+                <string name="onselected" > exam selected
+                </string>
+                <string name="left" >" left ("
+                </string>
+                <string name="app_name" >Student Assistant
+                </string>
+                <string name="undo" >Undo
+                </string>
+                <string name="jit" >days are remaining and you are right on schedule
+                </string>
+                <string name="output_deadline" >Deadline: 
+                </string>
+                <string name="GeneralDesc" >Configure name and deadline
+                </string>
+                <string name="updated" >Achievements saved
+                </string>
+                <string name="switch_notif" >Reminders
+                </string>
+                <string name="delete" >Delete
+                </string>
+            </file>
+            <file
+                name="undobar_button_focused"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/undobar_button_focused.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_undobar_undo"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_undobar_undo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_ach"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_menu_ach.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_edit"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_menu_edit.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_retry"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_retry.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_delete"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_menu_delete.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_new"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/ic_menu_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="undobar"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/undobar.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="undobar_button_pressed"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/undobar_button_pressed.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="undobar_divider"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xhdpi/undobar_divider.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-it/strings.xml"
+                qualifiers="it" >
+                <string name="Notes" >Appunti
+                </string>
+                <string name="deadline" >Qundo desideri finire?
+                </string>
+                <string name="Exercises" >Esercizi
+                </string>
+                <string name="bigNotifTitle" >Sei in ritardo per:
+                </string>
+                <string name="onceD" >Una al giorno
+                </string>
+                <string name="TextbookDesc" >Informazioni sul libro di testo
+                </string>
+                <string name="update" >Avanzamenti
+                </string>
+                <string name="guess" >Quanti al giorno?
+                </string>
+                <string name="SlidesDesc" >Informazioni sulle slide
+                </string>
+                <string name="goodnews" >giorni rimangono e tu hai bisogno solo di 
+                </string>
+                <string name="cancel" >Annulla
+                </string>
+                <string name="jit" >giorni rimangono e tu sei giusto in tempo
+                </string>
+                <string name="undomess" >Esame rimosso
+                </string>
+                <string name="confirmation_dialog_more" >Sei sicuro di volerli rimuovere?
+                </string>
+                <string name="Pages" >Pagine
+                </string>
+                <string name="name_preference" >Nome
+                </string>
+                <string name="author" >Sviluppato da Marco Damonte (mdtux89@gmail.com)
+                </string>
+                <string name="delete" >Rimuovi
+                </string>
+                <string name="ExercisesDesc" >Informazioni sugli esercizi
+                </string>
+                <string name="GeneralDesc" >Configura il nome e la deadline
+                </string>
+                <string name="newname" >Nuovo esame
+                </string>
+                <string name="learning" >Correggi previsioni
+                </string>
+                <string name="title_exam_detail" >Dettagli dell\'esame
+                </string>
+                <string name="mail" >mdtux89@gmail.com
+                </string>
+                <string name="NotesDesc" >Informazioni sugli appunti
+                </string>
+                <string name="about" >Informazioni sull\'applicazione
+                </string>
+                <string name="defdate" >2013.01.01
+                </string>
+                <string name="Slides" >Slide
+                </string>
+                <string name="summary_rate" >In ogni caso i promemoria ti verranno mostrati solo se sei in ritardo
+                </string>
+                <string name="onselected" > esame selezionato
+                </string>
+                <string name="ok" >Ok
+                </string>
+                <string name="badnews" >giorni rimangono ma tu hai bisogno di
+                </string>
+                <string name="problems" >Invia feedback
+                </string>
+                <string name="summary_learning" >Corregge automaticamente le tue previsioni sul ritmo di studio
+                </string>
+                <string name="retry" >Riprova
+                </string>
+                <string name="licenses" >Licenze open source
+                </string>
+                <string name="days" >giorni
+                </string>
+                <string name="moreselected" > esami selezionati
+                </string>
+                <string name="start" >Seleziona o aggiungi nuovi esami per iniziare
+                </string>
+                <string name="learning_dialog" >Sembra che il tuo ritmo sia cambiato parecchio. Sicuro di volerlo aggiustare?
+                </string>
+                <string name="updated" >Avanzamento salvato
+                </string>
+                <string name="output_deadline" >Deadline: 
+                </string>
+                <string name="empty" >Aggiungi nuovi esami per iniziare
+                </string>
+                <string name="number_slides" >Quante slide?
+                </string>
+                <string name="newtitle" >Nuovo esame
+                </string>
+                <string name="output_required" >Previsione: 
+                </string>
+                <string name="setting_update" >Impostazioni aggiornate
+                </string>
+                <string name="bigNotifText" > promemoria
+                </string>
+                <string name="number_exercises" >Quanti esercizi?
+                </string>
+                <string name="confirmation_dialog" >Sei sicuro di volerlo rimuovere?
+                </string>
+                <string name="switch_notif" >Promemoria
+                </string>
+                <string name="settings" >Impostazioni
+                </string>
+                <string name="General" >Generale
+                </string>
+                <string name="Textbook" >Libro di testo
+                </string>
+                <string name="number_pages" >Quante pagine?
+                </string>
+                <string name="app_name" >Student Assistant
+                </string>
+                <string name="rate" >Frequenza dei promemoria
+                </string>
+                <string name="undo" >Annulla
+                </string>
+                <string name="menu_new" >Nuovo
+                </string>
+                <string name="onceW" >Una alla settimana
+                </string>
+                <string name="done" >Nient\'altro da studiare!
+                </string>
+                <string name="deleted" >Esame rimosso
+                </string>
+                <string name="edit" >Modifica
+                </string>
+                <string name="left" >" rimanenti ("
+                </string>
+            </file>
+            <file
+                name="setting_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/setting_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="notes_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/notes_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="exercises_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/exercises_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="general_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/general_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="preference_headers"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/preference_headers.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="textbook_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/textbook_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="slides_preference"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/slides_preference.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="ic_menu_ach"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xxhdpi/ic_menu_ach.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_edit"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xxhdpi/ic_menu_edit.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_delete"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xxhdpi/ic_menu_delete.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_new"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-xxhdpi/ic_menu_new.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_exam_twopane"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/activity_exam_twopane.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_exam_detail"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/fragment_exam_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="number_pref"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/number_pref.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="text_pref"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/text_pref.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="about_layout"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/about_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_exam_detail"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/activity_exam_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_exam_list"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/activity_exam_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="undobar"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/undobar.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/dialog.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_menu_ach"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-hdpi/ic_menu_ach.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_edit"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-hdpi/ic_menu_edit.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_delete"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-hdpi/ic_menu_delete.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_new"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-hdpi/ic_menu_new.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_ach"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-mdpi/ic_menu_ach.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_edit"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-mdpi/ic_menu_edit.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_delete"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-mdpi/ic_menu_delete.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_new"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable-mdpi/ic_menu_new.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values/array.xml"
+                qualifiers="" >
+                <string-array name="listValues" >
+                    <item>
+1
+                    </item>
+                    <item>
+7
+                    </item>
+                </string-array>
+                <string-array name="list" >
+                    <item>
+@string/onceD
+                    </item>
+                    <item>
+@string/onceW
+                    </item>
+                </string-array>
+                <string-array name="category" >
+                    <item>
+@string/Slides
+                    </item>
+                    <item>
+@string/Notes
+                    </item>
+                    <item>
+@string/Textbook
+                    </item>
+                    <item>
+@string/Exercises
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="UndoBarButton" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+match_parent
+                    </item>
+                    <item name="android:paddingLeft">
+16dp
+                    </item>
+                    <item name="android:paddingRight">
+16dp
+                    </item>
+                    <item name="android:background">
+@drawable/undobar_button
+                    </item>
+                    <item name="android:drawableLeft">
+@drawable/ic_undobar_undo
+                    </item>
+                    <item name="android:drawablePadding">
+12dp
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceMedium
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+#fff
+                    </item>
+                    <item name="android:text">
+"Undo"
+                    </item>
+                </style>
+
+                <style name="UndoBarMessage" >
+                    <item name="android:layout_width">
+0dp
+                    </item>
+                    <item name="android:layout_weight">
+1
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_marginLeft">
+16dp
+                    </item>
+                    <item name="android:layout_gravity">
+center_vertical
+                    </item>
+                    <item name="android:layout_marginRight">
+16dp
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceMedium
+                    </item>
+                    <item name="android:textColor">
+#fff
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme.ActionBar"
+                    parent="@android:style/Widget.Holo.Light.ActionBar" >
+                </style>
+
+                <style name="UndoBar" >
+                    <item name="android:layout_width">
+match_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:minHeight">
+48dp
+                    </item>
+                    <item name="android:maxHeight">
+150dp
+                    </item>
+                    <item name="android:layout_gravity">
+bottom
+                    </item>
+                    <item name="android:layout_marginLeft">
+8dp
+                    </item>
+                    <item name="android:layout_marginRight">
+8dp
+                    </item>
+                    <item name="android:layout_marginBottom">
+16dp
+                    </item>
+                    <item name="android:orientation">
+horizontal
+                    </item>
+                    <item name="android:background">
+@drawable/undobar
+                    </item>
+                    <item name="android:clickable">
+true
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="@android:style/Theme.Holo.Light" >
+                    <item name="android:actionBarStyle">
+@style/AppTheme.ActionBar
+                    </item>
+                    <item name="android:textAllCaps">
+false
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values/color.xml"
+                qualifiers="" >
+                <color name="green" >#00ff00
+                </color>
+                <color name="white" >#ffffff
+                </color>
+                <color name="red" >#ff0000
+                </color>
+                <color name="color_name" >#d7e2ea
+                </color>
+                <color name="yellow" >#ffff00
+                </color>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="b1"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/b1.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="borders2_pressed"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/borders2_pressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="borderspressed"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/borderspressed.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="borders2"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/borders2.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="b2"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/b2.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="borderslist"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/borderslist.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="borders"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/borders.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="undobar_button"
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/drawable/undobar_button.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" >
+                <dimen name="margin" >70dp
+                </dimen>
+            </file>
+            <file
+                path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="margin" >15dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/debug/res" />
+    </dataSet>
+
+</merger>

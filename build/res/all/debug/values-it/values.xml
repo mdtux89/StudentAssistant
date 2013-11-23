@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/values-it/strings.xml -->
+    <string name="Exercises">Esercizi</string>
+    <string name="ExercisesDesc">Informazioni sugli esercizi</string>
+    <string name="General">Generale</string>
+    <string name="GeneralDesc">Configura il nome e la deadline</string>
+    <string name="Notes">Appunti</string>
+    <string name="NotesDesc">Informazioni sugli appunti</string>
+    <string name="Pages">Pagine</string>
+    <string name="Slides">Slide</string>
+    <string name="SlidesDesc">Informazioni sulle slide</string>
+    <string name="Textbook">Libro di testo</string>
+    <string name="TextbookDesc">Informazioni sul libro di testo</string>
+    <string name="about">Informazioni sull\'applicazione</string>
+    <string name="app_name">Student Assistant</string>
+    <string name="author">Sviluppato da Marco Damonte (mdtux89@gmail.com)</string>
+    <string name="badnews">giorni rimangono ma tu hai bisogno di</string>
+    <string name="bigNotifText"> promemoria</string>
+    <string name="bigNotifTitle">Sei in ritardo per:</string>
+    <string name="cancel">Annulla</string>
+    <string name="confirmation_dialog">Sei sicuro di volerlo rimuovere?</string>
+    <string name="confirmation_dialog_more">Sei sicuro di volerli rimuovere?</string>
+    <string name="days">giorni</string>
+    <string name="deadline">Qundo desideri finire?</string>
+    <string name="defdate">2013.01.01</string>
+    <string name="delete">Rimuovi</string>
+    <string name="deleted">Esame rimosso</string>
+    <string name="done">Nient\'altro da studiare!</string>
+    <string name="edit">Modifica</string>
+    <string name="empty">Aggiungi nuovi esami per iniziare</string>
+    <string name="goodnews">giorni rimangono e tu hai bisogno solo di </string>
+    <string name="guess">Quanti al giorno?</string>
+    <string name="jit">giorni rimangono e tu sei giusto in tempo</string>
+    <string name="learning">Correggi previsioni</string>
+    <string name="learning_dialog">Sembra che il tuo ritmo sia cambiato parecchio. Sicuro di volerlo aggiustare?</string>
+    <string name="left">" rimanenti ("</string>
+    <string name="licenses">Licenze open source</string>
+    <string name="mail">mdtux89@gmail.com</string>
+    <string name="menu_new">Nuovo</string>
+    <string name="moreselected"> esami selezionati</string>
+    <string name="name_preference">Nome</string>
+    <string name="newname">Nuovo esame</string>
+    <string name="newtitle">Nuovo esame</string>
+    <string name="number_exercises">Quanti esercizi?</string>
+    <string name="number_pages">Quante pagine?</string>
+    <string name="number_slides">Quante slide?</string>
+    <string name="ok">Ok</string>
+    <string name="onceD">Una al giorno</string>
+    <string name="onceW">Una alla settimana</string>
+    <string name="onselected"> esame selezionato</string>
+    <string name="output_deadline">Deadline: </string>
+    <string name="output_required">Previsione: </string>
+    <string name="problems">Invia feedback</string>
+    <string name="rate">Frequenza dei promemoria</string>
+    <string name="retry">Riprova</string>
+    <string name="setting_update">Impostazioni aggiornate</string>
+    <string name="settings">Impostazioni</string>
+    <string name="start">Seleziona o aggiungi nuovi esami per iniziare</string>
+    <string name="summary_learning">Corregge automaticamente le tue previsioni sul ritmo di studio</string>
+    <string name="summary_rate">In ogni caso i promemoria ti verranno mostrati solo se sei in ritardo</string>
+    <string name="switch_notif">Promemoria</string>
+    <string name="title_exam_detail">Dettagli dell\'esame</string>
+    <string name="undo">Annulla</string>
+    <string name="undomess">Esame rimosso</string>
+    <string name="update">Avanzamenti</string>
+    <string name="updated">Avanzamento salvato</string>
+
+</resources>

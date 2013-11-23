@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:animateLayoutChanges="true"
+             android:id="@+id/exam_detail_container"
+             android:background="#d7e2ea"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ExamDetailActivity"
+             tools:ignore="MergeRootFrame" >
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+    >
+    <TextView
+        android:id="@+id/app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:id="@+id/openlab_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/app"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+    ></ImageView>
+    <TextView
+        android:id="@+id/openlab_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="www.openlab-dist.org"
+        android:layout_below="@+id/openlab_logo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/author"
+        android:layout_below="@+id/openlab_url"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/layout/about_layout.xml -->

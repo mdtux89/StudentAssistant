@@ -1,0 +1,15 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <it.openlab.studentassistant.NumberPickerPreference
+            android:key="slides"
+            android:title="@string/number_slides"
+            android:dialogTitle="@string/number_slides"/>
+
+    <it.openlab.studentassistant.NumberPickerPreference
+            android:key="guess_slides"
+            android:title="@string/guess"
+            android:dialogTitle="@string/guess" />
+
+</PreferenceScreen><!-- From: file:/home/marco/AndroidStudioProjects/StudentAssistantProject/StudentAssistant/src/main/res/xml/slides_preference.xml -->
