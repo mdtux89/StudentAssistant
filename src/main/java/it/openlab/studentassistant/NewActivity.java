@@ -117,74 +117,78 @@ public class NewActivity extends PreferenceActivity {
     }
 
     @Override
+    public void onBackPressed(){
+        Date now = new Date();
+        now.setTime(now.getTime()+((1000)*60*60*24));
+        SimpleDateFormat s = new SimpleDateFormat("yyyy.MM.dd");
+        String defdate = s.format(now);
+        ExamDbHelper helper = new ExamDbHelper(getApplicationContext());
+        SQLiteDatabase db = helper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        String name = sharedPref.getString("general", "");
+        String dd = sharedPref.getString("dob", defdate);
+        int g_slides = sharedPref.getInt("guess_slides", 1);
+        int g_pages = sharedPref.getInt("guess_pages", 1);
+        int g_notes = sharedPref.getInt("guess_notes", 1);
+        int g_exercises = sharedPref.getInt("guess_exercises", 1);
+        int slides = sharedPref.getInt("slides", 0);
+        int pages = sharedPref.getInt("pages", 0);
+        int notes = sharedPref.getInt("notes", 0);
+        int exercises = sharedPref.getInt("exercises", 0);
+        long time = (new Date()).getTime();
+
+        if(!existing){
+            guess_slides= guess_exercises = guess_notes = guess_pages = 1;
+            _slides= _exercises = _notes = _pages = 0;
+            ddl = defdate;
+            general = "";
+        }
+
+        if(g_slides!=guess_slides || g_pages!=guess_pages || g_notes!=guess_notes ||
+        g_exercises!=guess_exercises || slides!=_slides || notes!=_notes || pages!=_pages ||
+        exercises!=_exercises || !dd.equals(ddl) || !name.equals(general)){
+
+            values.put(ExamContract.Entry.DEADLINE, dd);
+            if(name.equals("")) name = getString(R.string.newname);
+            values.put(ExamContract.Entry.EXAM, name);
+            values.put(ExamContract.Entry.SLIDESADAY, g_slides);
+            values.put(ExamContract.Entry.PAGESADAY, g_pages);
+            values.put(ExamContract.Entry.NOTESADAY, g_notes);
+            values.put(ExamContract.Entry.EXERCISESADAY, g_exercises);
+            values.put(ExamContract.Entry.SLIDES, slides);
+            values.put(ExamContract.Entry.PAGES, pages);
+            values.put(ExamContract.Entry.NOTES, notes);
+            values.put(ExamContract.Entry.EXERCISES, exercises);
+            values.put(ExamContract.Entry.SLIDESUPDATED,time);
+            values.put(ExamContract.Entry.NOTESUPDATED,time);
+            values.put(ExamContract.Entry.EXERCISESUPDATED,time);
+            values.put(ExamContract.Entry.PAGESUPDATED,time);
+
+            if(!existing){
+                db.insert(
+                        ExamContract.Entry.TABLE_NAME,
+                        null,
+                        values);
+            }
+            else{
+
+                if(id!=""){
+                    db.update(
+                            ExamContract.Entry.TABLE_NAME,
+                            values,
+                            ExamContract.Entry._ID + " = " + id,
+                            null
+                    );
+                }
+            }
+        }
+        super.onBackPressed();
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                Date now = new Date();
-                now.setTime(now.getTime()+((1000)*60*60*24));
-                SimpleDateFormat s = new SimpleDateFormat("yyyy.MM.dd");
-                String defdate = s.format(now);
-                ExamDbHelper helper = new ExamDbHelper(getApplicationContext());
-                SQLiteDatabase db = helper.getWritableDatabase();
-                ContentValues values = new ContentValues();
-                String name = sharedPref.getString("general", "");
-                String dd = sharedPref.getString("dob", defdate);
-                int g_slides = sharedPref.getInt("guess_slides", 1);
-                int g_pages = sharedPref.getInt("guess_pages", 1);
-                int g_notes = sharedPref.getInt("guess_notes", 1);
-                int g_exercises = sharedPref.getInt("guess_exercises", 1);
-                int slides = sharedPref.getInt("slides", 0);
-                int pages = sharedPref.getInt("pages", 0);
-                int notes = sharedPref.getInt("notes", 0);
-                int exercises = sharedPref.getInt("exercises", 0);
-                long time = (new Date()).getTime();
-
-                if(!existing){
-                    guess_slides= guess_exercises = guess_notes = guess_pages = 1;
-                    _slides= _exercises = _notes = _pages = 0;
-                    ddl = defdate;
-                    general = "";
-                }
-
-                if(g_slides!=guess_slides || g_pages!=guess_pages || g_notes!=guess_notes ||
-                        g_exercises!=guess_exercises || slides!=_slides || notes!=_notes || pages!=_pages ||
-                        exercises!=_exercises || !dd.equals(ddl) || !name.equals(general)){
-
-                    values.put(ExamContract.Entry.DEADLINE, dd);
-                    if(name.equals("")) name = getString(R.string.newname);
-                    values.put(ExamContract.Entry.EXAM, name);
-                    values.put(ExamContract.Entry.SLIDESADAY, g_slides);
-                    values.put(ExamContract.Entry.PAGESADAY, g_pages);
-                    values.put(ExamContract.Entry.NOTESADAY, g_notes);
-                    values.put(ExamContract.Entry.EXERCISESADAY, g_exercises);
-                    values.put(ExamContract.Entry.SLIDES, slides);
-                    values.put(ExamContract.Entry.PAGES, pages);
-                    values.put(ExamContract.Entry.NOTES, notes);
-                    values.put(ExamContract.Entry.EXERCISES, exercises);
-                    values.put(ExamContract.Entry.SLIDESUPDATED,time);
-                    values.put(ExamContract.Entry.NOTESUPDATED,time);
-                    values.put(ExamContract.Entry.EXERCISESUPDATED,time);
-                    values.put(ExamContract.Entry.PAGESUPDATED,time);
-
-                    if(!existing){
-                        db.insert(
-                                ExamContract.Entry.TABLE_NAME,
-                                null,
-                                values);
-                    }
-                    else{
-
-                        if(id!=""){
-                            db.update(
-                                    ExamContract.Entry.TABLE_NAME,
-                                    values,
-                                    ExamContract.Entry._ID + " = " + id,
-                                    null
-                            );
-                        }
-                    }
-                }
-
                 onBackPressed();
                 break;
             default:

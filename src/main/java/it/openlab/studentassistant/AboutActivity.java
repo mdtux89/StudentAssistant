@@ -15,7 +15,7 @@ public class AboutActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_layout);
         TextView t = (TextView)findViewById(R.id.app);
-        t.append(" v1.0 ");
+        t.append(" v1.1 ");
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
